@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Your Account — Daily Pocket</title>
+<style>
+  :root {
+    --ink: #1c1c1c;
+    --paper: #fbfaf7;
+    --line: #dedad2;
+    --accent: #2f6f4f;
+    --muted: #6b6b64;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+  .brand {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .sub {
+    color: var(--muted);
+    font-size: 16px;
+    margin: 0 0 40px;
+  }
+  section {
+    border-top: 1px solid var(--line);
+    padding: 32px 0;
+  }
+  section:last-of-type {
+    border-bottom: 1px solid var(--line);
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 14px;
+  }
+  ol, ul {
+    padding-left: 22px;
+    margin: 0;
+  }
+  li { margin-bottom: 10px; }
+  li:last-child { margin-bottom: 0; }
+  .step-title { font-weight: 600; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 4px;
+    font-size: 15px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 8px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .note {
+    background: #f1f0ea;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px 18px;
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 40px;
+  }
+  .placeholder {
+    background: #fff3cd;
+    border-bottom: 1px dashed #b08900;
+    padding: 0 2px;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">Daily Pocket</div>
+    <h1>Delete your account and data</h1>
+    <p class="sub">This page explains how to request deletion of your Daily Pocket account, and what happens to your data afterward.</p>
+
+    <section>
+      <h2>How to request account deletion</h2>
+      <ol>
+        <li><span class="step-title">Open the Daily Pocket app</span> and sign in to the account you want to delete.</li>
+        <li><span class="step-title">Go to Settings.</span> Tap your profile icon, then select <strong>Settings</strong>.</li>
+        <li><span class="step-title">Select "Delete Account."</span> Tap <strong>Account</strong>, then <strong>Delete Account</strong>, near the bottom of the screen.</li>
+        <li><span class="step-title">Confirm your request.</span> Enter your password (or confirm via the on-screen prompt) and tap <strong>Delete My Account</strong> to submit the request.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>What gets deleted</h2>
+      <table>
+        <tr>
+          <th>Data type</th>
+          <th>What happens</th>
+        </tr>
+        <tr>
+          <td>Profile information (name, email, photo)</td>
+          <td><span class="placeholder">Deleted within [X] days</span></td>
+        </tr>
+        <tr>
+          <td>App content (entries, notes, saved items)</td>
+          <td><span class="placeholder">Deleted within [X] days</span></td>
+        </tr>
+        <tr>
+          <td>Usage and analytics data</td>
+          <td><span class="placeholder">Retained for [X] days/months, then deleted or anonymized</span></td>
+        </tr>
+        <tr>
+          <td>Records required by law (e.g. billing/tax records)</td>
+          <td><span class="placeholder">Retained for [X] as required by [applicable law/regulation]</span></td>
+        </tr>
+      </table>
+    </section>
+
+    <div class="note">
+      <span class="placeholder">Placeholder note: Fill in the exact retention periods and any legal basis for retained data above before publishing this page. Google requires this section to specify what is deleted, what is kept, and for how long.</span>
+    </div>
+
+    <footer>
+      Questions about your data? Contact us at <span class="placeholder">support@dailypocket.app</span>.
+    </footer>
+  </div>
+</body>
+</html>
